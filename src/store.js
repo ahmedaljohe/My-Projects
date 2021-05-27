@@ -3,7 +3,7 @@ import toDolist from './reducer'
 
 export default configureStore({
     reducer: {
-      counter:toDolist,
+      todeReducer: toDolist,
     },
   })
   
